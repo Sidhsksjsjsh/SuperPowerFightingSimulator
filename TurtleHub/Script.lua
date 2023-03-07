@@ -23,7 +23,7 @@ T1:AddToggle({
 Name = "anti afk",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -46,7 +46,7 @@ T1:AddToggle({
 Name = "Silent Mode",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -116,7 +116,7 @@ T1:AddToggle({
 Name = "Auto strength",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -148,7 +148,7 @@ T1:AddToggle({
 Name = "Auto endurance",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -185,7 +185,7 @@ T1:AddToggle({
 Name = "Auto Psychic",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -222,7 +222,7 @@ T1:AddToggle({
 Name = "Auto Upgrade All",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -409,7 +409,7 @@ T1:AddToggle({
 Name = "Auto Collect Quest",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -466,7 +466,7 @@ T1:AddToggle({
 Name = "Auto Upgrade Strength (stats)",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -488,7 +488,7 @@ T1:AddToggle({
 Name = "Auto Upgrade Endurance (stats)",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -510,7 +510,7 @@ T1:AddToggle({
 Name = "Auto Upgrade Psychic (stats)",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -532,7 +532,7 @@ T1:AddToggle({
 Name = "Auto Upgrade speed",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -561,7 +561,7 @@ T2:AddToggle({
 Name = "Mythical Chest",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -583,7 +583,7 @@ T2:AddToggle({
 Name = "Holiday Chest",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -606,7 +606,7 @@ T2:AddToggle({
 Name = "Dark Pumpkin Chest",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -628,7 +628,7 @@ T2:AddToggle({
 Name = "Ancient God Chest",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -650,7 +650,7 @@ T2:AddToggle({
 Name = "Galaxy Chest",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -672,7 +672,7 @@ T2:AddToggle({
 Name = "Winter Chest",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -694,7 +694,7 @@ T2:AddToggle({
 Name = "Light Dark Chest",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -716,7 +716,7 @@ T2:AddToggle({
 Name = "Haunted Chest",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -738,7 +738,7 @@ T2:AddToggle({
 Name = "Alien Chest",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -760,7 +760,7 @@ T2:AddToggle({
 Name = "Elemental Chest",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -782,7 +782,7 @@ T2:AddToggle({
 Name = "Void Chest",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -804,7 +804,7 @@ T2:AddToggle({
 Name = "Basic Chest",
 Default = false,
 Callback = function(s)
-value = s
+local value = s
     if s then
         local g = game:service('RunService').Stepped:connect(function()
             if not value then
@@ -878,7 +878,7 @@ end
 })
 
 T4:AddButton({
-Name = "1)",
+Name = "1K",
 Callback = function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-774.234741, 70.5612411, -392.441528)
 end
