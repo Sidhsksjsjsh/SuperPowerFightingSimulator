@@ -3,7 +3,7 @@ local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/NMEHkVTb"))()
 local Window = OrionLib:MakeWindow({Name = "VIP Turtle Hub V3", HidePremium = false, SaveConfig = true, ConfigFolder = "TurtleFi"})
 
 local T1 = Window:MakeTab({
-Name = "Tab 1",
+Name = "Main",
 Icon = "rbxassetid://4483345998",
 PremiumOnly = false
 })
