@@ -943,7 +943,8 @@ T5:AddButton({
 Name = "100K",
 Callback = function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-962.245911, 80.1975708, -172.509216)
-end)
+end
+})
 
 T5:AddButton({
 Name = "5M",
